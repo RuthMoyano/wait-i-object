@@ -44,7 +44,7 @@ me.firstName = 'Ruth';
 me.lastName = 'Moyano';
 
 // Add a `fullName` property and set it to the name properties put together with a space string in the middle.
-me.fullname = '${me.} ${me.lastName}'
+me.fullName = me.firstName + ' ' + me.lastName;
 
 // Add an `age` property and set it to a number.
 me.age = Number.num;
